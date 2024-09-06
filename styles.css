@@ -207,7 +207,13 @@ footer {
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
     }
 
-    section input {
+    h2 {
+        font-size: 1.2rem; /* Tamanho da fonte em telas menores */
+        text-align: center; /* Centralizar */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas menores */
+    }
+  
+   section input {
         width: 17rem; /* Largura total dos inputs em telas pequenas */
     }
 
@@ -221,10 +227,11 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
-        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        width: 40rem; /* Largura da caixa de resultados em telas pequenas */
+        height: 60vh; /* Altura da caixa de resultados em telas pequenas */
+        border-radius: 0.2rem; /* Borda arredondada */
     }
-
+    
     .item-resultado h2 {
         font-size: 0.8rem; /* Tamanho da fonte dos títulos em telas pequenas */
     }
