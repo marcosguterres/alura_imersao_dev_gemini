@@ -151,12 +151,12 @@ footer {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        font-size: 1.8rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
 
     h2 {
-        font-size: 1.6rem; /* Tamanho da fonte em telas menores */
+        font-size: 1.4rem; /* Tamanho da fonte em telas menores */
         text-align: center; /* Centralizar */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
