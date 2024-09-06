@@ -161,6 +161,12 @@ footer {
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
   
+    h3 {
+        font-size: 1.2rem; /* Tamanho da fonte em telas menores */
+        text-align: center; /* Centralizar */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+  
     section input {
         width: 25rem; /* Largura dos inputs em telas menores */
         padding: 0.8rem; /* Espaçamento interno em telas menores */
