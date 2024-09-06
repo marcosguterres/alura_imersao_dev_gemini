@@ -238,15 +238,20 @@ footer {
         height: 40vh; /* Altura da caixa de resultados em telas pequenas */
         border-radius: 0.2rem; /* Borda arredondada */
     }
-    
+   
+    /* Estiliza os títulos dentro dos itens de resultado */
     .item-resultado h2 {
-        font-size: 0.8rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        font-size: 1.5rem; /* Tamanho da fonte */
+        color: #222831; /* Cor do texto */
     }
 
+    /* Estiliza os títulos h3 dentro dos itens de resultado */
     .item-resultado h3 {
-        font-size: 0.6rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        width: 30rem; /* Largura máxima da caixa de resultados */
+        font-size: 1.2rem; /* Tamanho da fonte */
+        color: #222831; /* Cor do texto */
     }
-    
+   
     .item-resultado img {
         width: 50px;
         height: 75px;
