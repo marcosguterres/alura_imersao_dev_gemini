@@ -177,15 +177,20 @@ footer {
         border-radius: 0.2rem; /* Borda arredondada */
     }
 
+    /* Estiliza os títulos dentro dos itens de resultado */
     .item-resultado h2 {
-        font-size: 1.0rem; /* Tamanho da fonte dos títulos em telas menores */
+        font-size: 1.5rem; /* Tamanho da fonte */
+        color: #222831; /* Cor do texto */
     }
 
+    /* Estiliza os títulos h3 dentro dos itens de resultado */
     .item-resultado h3 {
-        font-size: 1.8rem; /* Tamanho da fonte dos títulos em telas menores */
+        width: 30rem; /* Largura máxima da caixa de resultados */
+        font-size: 1.2rem; /* Tamanho da fonte */
+        color: #222831; /* Cor do texto */
     }
-
-    /* Estiliza a descrição meta dentro dos itens de resultado */
+   
+     /* Estiliza a descrição meta dentro dos itens de resultado */
     .descricao-meta {
         color: #45474B; /* Cor do texto */
         margin: 0.3rem 0; /* Margem acima e abaixo */
