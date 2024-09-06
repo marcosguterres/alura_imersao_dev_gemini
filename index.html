@@ -13,11 +13,12 @@
     </header>
     <main>
         <section>
-        <input type="text" placeholder="Digite o nome ou número do candidato ou a sigla do partido">
+        <input type="text" placeholder="Digite o nome ou número do candidato ou a sigla do partido" id="filtro_pesquisa">
         <label for="filtro_cargo">Cargo: </label>
-        <select name="filtro_cargo" >
+        <select name="filtro_cargo" onchange="pesquisar()" id="filtro_cargo">
             <option>Todos</option>
             <option>Prefeito</option>
+            <option>Vice-Prefeito</option>
             <option>Vereador</option>
         </select>
         <button onclick="pesquisar()">Pesquisar</button>
@@ -26,7 +27,7 @@
         </section>
     </main>
     <footer>
-        <p>2024 - Candidatos do município do Rio de Janeiro. Todos os direitos reservados TRE-RJ.</p>
+        <p>2024 - Candidatos do município do Rio de Janeiro. Fonte: <a href="https://dadosabertos.tse.jus.br/dataset/candidatos-2024/resource/af76c401-0972-4ddf-8ea8-00e310ae53b4" target="_blank">Dados abertos do TSE</a></a> </p>
     </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>

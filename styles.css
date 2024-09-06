@@ -22,6 +22,7 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -104,7 +105,7 @@ section button:hover {
 }
 
 .item-resultado img {
-    width: 100px;
+    width: 110px;
     height: 130px;
     float: left;
     margin-right: 10px;
@@ -129,6 +130,13 @@ section button:hover {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta-menor {
+    color: #45474B; /* Cor do texto */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
 /* Estiliza o rodapé da página */
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
@@ -147,6 +155,11 @@ footer {
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
 
+    h2 {
+        font-size: 1.6rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+  
     section input {
         width: 25rem; /* Largura dos inputs em telas menores */
         padding: 0.8rem; /* Espaçamento interno em telas menores */
@@ -170,6 +183,13 @@ footer {
         font-size: 1.2rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 
+    /* Estiliza a descrição meta dentro dos itens de resultado */
+    .descricao-meta-menor {
+        color: #45474B; /* Cor do texto */
+        font-size: 0.6rem; /* Tamanho da fonte */
+        margin: 0.3rem 0; /* Margem acima e abaixo */
+    }
+
     .item-resultado img {
         width: 80px;
         height: 110px;
@@ -183,7 +203,7 @@ footer {
 @media (max-width: 480px) {
 
     h1 {
-        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        font-size: 1.5rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
     }
 
@@ -206,11 +226,11 @@ footer {
     }
 
     .item-resultado h2 {
-        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        font-size: 0.8rem; /* Tamanho da fonte dos títulos em telas pequenas */
     }
 
     .item-resultado h3 {
-        font-size: 1.0rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        font-size: 0.6rem; /* Tamanho da fonte dos títulos em telas pequenas */
     }
     
     .item-resultado img {
@@ -218,6 +238,13 @@ footer {
         height: 75px;
         float: left;
         margin-right: 10px;
+    }
+
+    /* Estiliza a descrição meta dentro dos itens de resultado */
+    .descricao-meta-menor {
+        color: #45474B; /* Cor do texto */
+        font-size: 0.6rem; /* Tamanho da fonte */
+        margin: 0.3rem 0; /* Margem acima e abaixo */
     }
 
     footer {
