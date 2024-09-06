@@ -26,7 +26,8 @@ Imagina que você está naquela dúvida: "Quem será que vai representar a minha
 
 **Observações:**
 
-* **Dados:** Os dados dos candidatos foram obtidos do TSE (Tribunal Superior Eleitoral) e estão no arquivo `dados.js`.
+* **Dados:** Os dados dos candidatos foram obtidos do TSE (Tribunal Superior Eleitoral) e estão no arquivo `dados.js`. Utilizei uma ferramenta para converter de CSV para JSON. Como não utilizamos banco de dados, resumi os dados ao município onde voto para não carregar muito o site. 
+* **Filtros:** Achei interessante adicionar um filtro por **cargo** para facilitar a pesquisa. Além disso, a pesquisa busca nos campos nome (de urna), número do candidato e sigla do partido.
 * **Personalização:** Sinta-se à vontade para personalizar a aparência e adicionar mais funcionalidades!
 * **Contribuições:** Se você quiser ajudar a melhorar o projeto, fique à vontade para abrir um pull request.
 
