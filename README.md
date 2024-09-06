@@ -34,4 +34,4 @@ Imagina que você está naquela dúvida: "Quem será que vai representar a minha
 
 **#Eleições2024 #DesenvolvimentoWeb #OpenSource**
 
-**Marcos Guterres - Desenvolvedor(a) apaixonado(a) por eleições e tecnologia.**
+**Marcos Guterres - Desenvolvedor apaixonado por tecnologia.**
