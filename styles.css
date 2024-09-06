@@ -172,7 +172,7 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 30rem; /* Largura da caixa de resultados em telas menores */
+        width: 20rem; /* Largura da caixa de resultados em telas menores */
         height: 40vh; /* Altura da caixa de resultados em telas menores */
         border-radius: 0.2rem; /* Borda arredondada */
     }
