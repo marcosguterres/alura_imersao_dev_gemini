@@ -190,6 +190,7 @@ footer {
         color: #45474B; /* Cor do texto */
         font-size: 0.7rem; /* Tamanho da fonte */
         margin: 0.3rem 0; /* Margem acima e abaixo */
+    }
 
         /* Estiliza a descrição meta dentro dos itens de resultado */
     .descricao-meta-menor {
