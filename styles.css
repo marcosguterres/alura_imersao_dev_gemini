@@ -157,6 +157,7 @@ footer {
 
     h2 {
         font-size: 1.6rem; /* Tamanho da fonte em telas menores */
+        text-align: center; /* Centralizar */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
   
