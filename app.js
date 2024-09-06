@@ -16,15 +16,14 @@ function pesquisar () {
   let filtro_pesquisa = document.getElementById("filtro_pesquisa").value.toUpperCase();
   // Obtém o filtro de cargo selecionado
   let filtro_cargo = document.getElementById("filtro_cargo").value.toUpperCase();
+  // Inicializa uma string vazia para armazenar a marcação HTML dos resultados
+  let resultados = '';
   // Se não informou filtro, termina
-  if (filtro_pesquisa=="") {
-    section.innerHTML = '<div class="item-resultado"><p class="descricao-meta">Nenhum candidato foi encontrado</p></div>';
-    return;
+  if (!filtro_pesquisa) {
+    resultados += '<div class="item-resultado"><p class="descricao-meta">Favor informar um texto para pesquisa</p></div>';
   }
   else
   {
-    // Inicializa uma string vazia para armazenar a marcação HTML dos resultados
-    let resultados = '';
 
     for (let dado of dados) {
         let arquivo_imagem = 'fotos\\FRJ'+dado.SQ_CANDIDATO+'_div.jpg';
@@ -73,9 +72,13 @@ function pesquisar () {
           }
         }
     }
-    // Atribui a marcação HTML construída à seção
-    section.innerHTML = resultados;
+
+    if(!resultados) {
+      resultados += '<div class="item-resultado"><p class="descricao-meta">Nenhum candidato foi encontrado</p></div>';
+    }
   }
+  // Atribui a marcação HTML construída à seção
+  section.innerHTML = resultados;
 }
 
 function calcularIdade(dataNascimento) {
