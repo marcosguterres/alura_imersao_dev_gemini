@@ -182,7 +182,7 @@ footer {
     }
 
     .item-resultado h3 {
-        font-size: 0.8rem; /* Tamanho da fonte dos títulos em telas menores */
+        font-size: 1.8rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 
     /* Estiliza a descrição meta dentro dos itens de resultado */
